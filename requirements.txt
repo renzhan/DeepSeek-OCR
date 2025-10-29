@@ -1,9 +1,28 @@
-transformers==4.46.3
-tokenizers==0.20.3
-PyMuPDF
-img2pdf
-einops
-easydict
-addict 
-Pillow
-numpy
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# OCR dependencies
+transformers==4.46.1
+tokenizers==0.21.1
+torch>=2.0.0
+torchvision>=0.15.0
+vllm>=0.2.0
+PyMuPDF==1.23.0
+img2pdf==0.5.0
+einops==0.7.0
+easydict==1.10
+addict==2.4.0
+Pillow==10.1.0
+numpy==1.24.0
+
+# Development dependencies
+pytest==7.4.0
+pytest-asyncio==0.21.0
+httpx==0.25.0
+black==23.0.0
+isort==5.12.0
+flake8==6.0.0
